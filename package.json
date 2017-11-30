@@ -1,0 +1,28 @@
+{
+  "name": "filefunctions",
+  "version": "1.0.0",
+  "description": "A small library providing functions to manipulate a text file",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansvandenPol/FileFunctions.git"
+  },
+  "author": "Hans van den Pol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HansvandenPol/FileFunctions/issues"
+  },
+  "homepage": "https://github.com/HansvandenPol/FileFunctions#readme",
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "@types/sha1": "^1.1.1",
+    "sha1": "^1.1.1",
+    "ts-md5": "^1.2.2"
+  }
+}
