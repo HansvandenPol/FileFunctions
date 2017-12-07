@@ -3,7 +3,7 @@ import 'mocha';
 import {FileHandler} from '../lib/fileHandler';
 
 const fileHandler = new FileHandler();
-const testPath = 'C:/Software/Typescript/FileFunctions/src/test.txt';
+const testPath = 'src/test.txt';
 
 describe('Functions to manipulate a file', () => {
   describe('Get file data from a given path', () => {

@@ -4,7 +4,7 @@ var chai_1 = require("chai");
 require("mocha");
 var fileHandler_1 = require("../lib/fileHandler");
 var fileHandler = new fileHandler_1.FileHandler();
-var testPath = 'C:/Software/Typescript/FileFunctions/src/test.txt';
+var testPath = 'src/test.txt';
 describe('Functions to manipulate a file', function () {
     describe('Get file data from a given path', function () {
         it('returns a string containing file data', function () {
