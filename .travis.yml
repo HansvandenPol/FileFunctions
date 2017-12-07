@@ -3,10 +3,9 @@ node_js:
   - "7"
 before_install:
   - npm i -g npm@latest
-  - npm install -g tslint
   - npm install -g typescript
 install:
-  - npm install;
+  - npm install
 cache:
   directories:
     - "node_modules"

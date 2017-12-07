@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc && npm run lint",
     "test": "./node_modules/.bin/mocha src/test/*.js --reporter spec",
-    "lint": "tslint -c tslint.json 'src/**/*.ts",
+    "lint": "./node_modules/.bin/tslint -c tslint.json './src/**/*.ts",
     "start": "npm run build && npm run test && node src/index.js"
   },
   "repository": {
@@ -38,8 +38,8 @@
     "eslint-plugin-import": "^2.8.0",
     "gulp": "^3.9.1",
     "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
     "tslint-fix": "^0.1.0",
-    "typescript": "~2.6.2",
-    "tslint": "~5.8.0"
+    "typescript": "~2.6.2"
   }
 }
