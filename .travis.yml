@@ -6,8 +6,6 @@ before_install:
   - npm install -g typescript
 install:
   - npm install
-cache:
-  directories:
-    - "node_modules"
+
 script:
     - npm start
