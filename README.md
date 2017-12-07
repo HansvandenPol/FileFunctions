@@ -10,7 +10,6 @@ A small library providing functions to manipulate text files.
   * Installing Npm
   * Dependencies
 * API
-* Usage
 * Contribution
 
 ## Product description
@@ -29,15 +28,25 @@ Install Node by going to this link: [NodeJS Download page](https://nodejs.org/en
 
 If you're using Linux, you can use the installer, or you can check [NodeSource's binary distributions](https://github.com/nodesource/distributions) to see whether or not there's a more recent version that works with your system.
 
-Test: Run **node -v**. The version should be higher than v0.10.32.
+Test the version
+
+```node -v```
+
+The version should be higher than v0.10.32.
 
 ### Installing Npm
-Run **npm -install npm@latest -g**
+Run the installer 
 
-Test: run **npm -v**
+```npm -install npm@latest -g```
+
+Test the version
+
+```npm -v```
 
 ### Dependencies
-Run **npm install**. 
+Install dependencies
+
+```npm install``` 
 
 This installs all the packages in your project directory.
 
@@ -45,14 +54,61 @@ This installs all the packages in your project directory.
 
 ### getFileFromPath
 
+### Overview
+Returns the content of the file.
+
 ### Usage
-<getFileFromPatch(path);>
+```getFileFromPatch(path);```
 
 Param | Type| Details
 ----- | --- | -------
 path | string | The path to the file you want to process
 
+### Returns
+string: The content of the file.
 
-**getFileSize ()** - Calculated the file size.</br>
-**SHA1()** - Encrypts the file using the sha1 algorithm.</br>
-**MD5()** - Encrypts the file using the sha1 algorithm.
+### getFileSize
+
+### Overview
+Returns the size of the file.
+
+### Usage
+```getFileSize(path);```
+
+Param | Type| Details
+----- | --- | -------
+path | string | The path to the file you want to process
+
+### Returns
+number: Size of the file.
+
+### SHA1
+
+### Overview
+Encrypts the file using the sha1 algorithm.
+
+### Usage
+```SHA1(path);```
+
+Param | Type| Details
+----- | --- | -------
+path | string | The path to the file you want to process
+
+### Returns
+string: SHA1 Encrypted version of the file data.
+
+### MD5
+
+### Overview
+Encrypts the file using the sha1 algorithm.
+
+### Usage
+```MD5(path);```
+
+Param | Type| Details
+----- | --- | -------
+path | string | The path to the file you want to process
+
+### Returns
+string: MD5 Encrypted version of the file data.
+
