@@ -1,4 +1,6 @@
 # FileFunctions
+[![Build Status](https://travis-ci.org/HansvandenPol/FileFunctions.svg?branch=addTravis)](https://travis-ci.org/HansvandenPol/FileFunctions) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A small library providing functions to manipulate text files.
 
 ## Functionality
