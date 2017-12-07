@@ -8,9 +8,9 @@
   },
   "scripts": {
     "build": "tsc && npm run lint",
-    "test": "node_modules/.bin/mocha ",
+    "test": "./node_modules/.bin/mocha src/test/*.js --reporter spec",
     "lint": "tslint -c tslint.json 'src/**/*.ts",
-    "start": "npm run build && node src/index.js"
+    "start": "npm run build && npm run test && node src/index.js"
   },
   "repository": {
     "type": "git",
