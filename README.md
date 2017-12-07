@@ -3,10 +3,56 @@
 
 A small library providing functions to manipulate text files.
 
-## Functionality
-This library includes 4 usefull functions:
+## Table of Contents
+* Product description
+* Installation
+  * Installing NodeJS
+  * Installing Npm
+  * Dependencies
+* API
+* Usage
+* Contribution
 
-**getFileFromPath()** - Gets the content from a file.</br>
+## Product description
+This is a library that contains functionality to retrieve local file information. It's written in NodeJS and Typescript.
+
+## Installation
+The product runs on NodeJS and uses Npm to install its packages.
+
+### Installing NodeJS
+
+* **Windows and OS X**
+
+Install Node by going to this link: [NodeJS Download page](https://nodejs.org/en/download/)
+
+* **Linux**
+
+If you're using Linux, you can use the installer, or you can check [NodeSource's binary distributions](https://github.com/nodesource/distributions) to see whether or not there's a more recent version that works with your system.
+
+Test: Run **node -v**. The version should be higher than v0.10.32.
+
+### Installing Npm
+Run **npm -install npm@latest -g**
+
+Test: run **npm -v**
+
+### Dependencies
+Run **npm install**. 
+
+This installs all the packages in your project directory.
+
+## API
+
+### getFileFromPath
+
+### Usage
+<getFileFromPatch(path);>
+
+Param | Type| Details
+----- | --- | -------
+path | string | The path to the file you want to process
+
+
 **getFileSize ()** - Calculated the file size.</br>
 **SHA1()** - Encrypts the file using the sha1 algorithm.</br>
 **MD5()** - Encrypts the file using the sha1 algorithm.
