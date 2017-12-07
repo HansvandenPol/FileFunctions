@@ -4,13 +4,13 @@
 A small library providing functions to manipulate text files.
 
 ## Table of Contents
-* Product description
-* Installation
-  * Installing NodeJS
-  * Installing Npm
-  * Dependencies
-* API
-* Contribution
+* [Product description](https://github.com/HansvandenPol/FileFunctions#Product_description)
+* [Installation](https://github.com/HansvandenPol/FileFunctions#Installation)
+  * [Installing NodeJS](https://github.com/HansvandenPol/FileFunctions#Installing_NodeJS)
+  * [Installing Npm](https://github.com/HansvandenPol/FileFunctions#Installing_Npm)
+  * [Dependencies](https://github.com/HansvandenPol/FileFunctions#Dependencies)
+* [API](https://github.com/HansvandenPol/FileFunctions#API)
+* [Contribution](https://github.com/HansvandenPol/FileFunctions#Contribution)
 
 ## Product description
 This is a library that contains functionality to retrieve local file information. It's written in NodeJS and Typescript.
