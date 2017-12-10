@@ -123,5 +123,5 @@ To run the script use:
 ```npm start```
 
 ## Contribution
-Please read the Contribution.md file before contributing to the project.
+Please read the [Contribution](https://github.com/HansvandenPol/FileFunctions/blob/master/CONTRIBUTING.md) file before contributing to the project.
 
