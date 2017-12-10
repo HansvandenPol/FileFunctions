@@ -2,8 +2,9 @@ import {expect} from 'chai';
 import 'mocha';
 import {FileHandler} from '../lib/fileHandler';
 
+// Initialize the fileHandler
 const fileHandler = new FileHandler();
-const testPath = 'src/test.txt';
+const testPath = 'src/test/test.txt';
 
 describe('Functions to manipulate a file', () => {
   describe('Get file data from a given path', () => {
