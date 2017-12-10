@@ -10,6 +10,7 @@ A small library providing functions to manipulate text files.
   * [Installing Npm](https://github.com/HansvandenPol/FileFunctions#installing-npm)
   * [Dependencies](https://github.com/HansvandenPol/FileFunctions#dependencies)
 * [API](https://github.com/HansvandenPol/FileFunctions#api)
+* [Example](https://github.com/HansvandenPol/FileFunctions#example)
 * [Contribution](https://github.com/HansvandenPol/FileFunctions#contribution)
 
 ## Product description
@@ -111,4 +112,16 @@ path | string | The path to the file you want to process
 
 ### Returns
 string: MD5 Encrypted version of the file data.
+
+## Example
+The example script shows how to use the API. The source code can be found here: [Example](https://github.com/HansvandenPol/FileFunctions/edit/master/example)
+
+The example script will run by default. 
+
+To run the script use:
+
+```npm start```
+
+## Contribution
+Please read the Contribution.md file before contributing to the project.
 
