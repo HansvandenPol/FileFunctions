@@ -1,8 +1,14 @@
+/*
+  EXAMPLE CODE
+  Uses API functions on a local text file
+*/
+
 import {FileHandler} from '../lib/fileHandler';
 
 // Initialize the filehandler
 const fileHandler: FileHandler = new FileHandler();
-const filePath: string = 'src/test.txt';
+
+const filePath: string = 'src/example/exampleFile.txt';
 // Get the file from a path
 const theFile = fileHandler.getFileFromPath(filePath);
 

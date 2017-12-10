@@ -1,9 +1,13 @@
 "use strict";
+/*
+  EXAMPLE CODE
+  Uses API functions on a local text file
+*/
 Object.defineProperty(exports, "__esModule", { value: true });
 var fileHandler_1 = require("../lib/fileHandler");
 // Initialize the filehandler
 var fileHandler = new fileHandler_1.FileHandler();
-var filePath = 'src/test.txt';
+var filePath = 'src/example/exampleFile.txt';
 // Get the file from a path
 var theFile = fileHandler.getFileFromPath(filePath);
 // get the file size
